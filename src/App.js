@@ -6,17 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Настроил деплой.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Котокафе
-        </a>
+        <p>Шаблон React приложения.</p>
       </header>
     </div>
   );
