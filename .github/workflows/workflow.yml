@@ -22,7 +22,7 @@ jobs:
           node-version: 20.10.0
 
       - name: Install dependencies and build
-        run: npm i && npm run build
+        run: npm ci && npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0
