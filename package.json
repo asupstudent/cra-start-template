@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "eslint": "eslint --ext .jsx --ext .js src/",
     "test": "npm run eslint",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "linthtml": "linthtml public/*.html --config .linthtmlrc"
   },
   "eslintConfig": {
     "extends": [
@@ -42,7 +43,9 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@linthtml/linthtml": "^0.9.5",
     "eslint-config-htmlacademy": "^10.0.1",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "linthtml-config-htmlacademy": "^1.0.14"
   }
 }
