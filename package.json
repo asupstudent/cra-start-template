@@ -1,6 +1,6 @@
 {
-  "name": "cat-cafe",
-  "homepage": "https://asupstudent.github.io/cat-cafe",
+  "name": "cra-start-template",
+  "homepage": "https://asupstudent.github.io/cra-start-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
