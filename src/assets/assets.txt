@@ -1,0 +1,13 @@
+В этой директории располагается графика не управляемая из CMS (которой нет в ответе от сервера)
+Добавляем префиксы (пример gallery-left.svg)
+Логотип располагается здесь (пример logo.svg)
+
+Добавлять так
+
+import { ReactComponent as LogoImage } from "/src/assets/logo.svg"; (JSX)
+
+или так
+
+import buyBackgroundRightTop from "/src/assets/buy-right-background-top.svg"; (JS)
+
+Нужно изучить разницу
