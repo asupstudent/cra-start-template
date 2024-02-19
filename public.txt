@@ -1,0 +1,6 @@
+Путь указываем используя %PUBLIC_URL% - текущий путь до дикретории public
+%PUBLIC_URL% - используется только в html файлах
+
+Пример:
+
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />

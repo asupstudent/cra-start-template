@@ -1,0 +1,6 @@
+В этой директории располагается контентная графика управляемая из CMS (которая есть в ответе от сервера)
+Структурируем по папкам (по блокам)
+
+Добавлять так:
+
+<img className="star-card__image" src={`${ process.env.PUBLIC_URL }/images/content/stars/sue.jpg`} width={313} height={320} alt='Изображение кота'/>
