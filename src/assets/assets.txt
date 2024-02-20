@@ -4,10 +4,12 @@
 
 Добавлять так
 
+логотип
 import { ReactComponent as LogoImage } from "/src/assets/logo.svg"; (JSX)
 
 или так
-
 import buyBackgroundRightTop from "/src/assets/buy-right-background-top.svg"; (JS)
 
+/////////////////////////////////////////////////////////////////////
 Нужно изучить разницу
+/////////////////////////////////////////////////////////////////////

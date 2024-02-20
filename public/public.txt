@@ -1,6 +1,11 @@
 Путь указываем используя %PUBLIC_URL% - текущий путь до дикретории public
 %PUBLIC_URL% - используется только в html файлах
+process.env.PUBLIC_URL - используется в JSX и JS (по JS выяснить)
 
-Пример:
+Пример для HTML файлов:
 
-<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+<link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+
+Пример для JSX и JS файлов:
+
+<img className="star-card__image" src={`${ process.env.PUBLIC_URL }/images/content/stars/sue.jpg`} width={313} height={320} alt='Изображение кота'/>
